@@ -16,6 +16,7 @@
 ## Working:
 first page is for login in this there are only two type of people can login 1). Admin:- He has a access to remove the employee, add the employee, update employee information, check bills, add category, add products, etc.. 2). Employee:- He can access only billing part in which he can do add product in to user cart, calculate bill, generate the bill and print the bill as per the user demands.
 
+There are only 30 products are add related to electric in to the database, you can also add products as per your need.
 ## Images of this project:
 
 <code><img height="60" src="https://user-images.githubusercontent.com/89255942/132175103-7f754056-d916-4fa4-b8d9-962105e5b472.png"></code>
