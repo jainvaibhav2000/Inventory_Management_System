@@ -42,7 +42,7 @@ class IMS:
         btn_category = Button(LeftMenu,text="Category",image=self.icon_side,compound=LEFT,padx=5,anchor='w',font=("times new roman",20,"bold"),bg="white",bd=3,cursor="hand2" , command=self.category).pack(side=TOP,fill=X)
         btn_product = Button(LeftMenu,text="Product",image=self.icon_side,compound=LEFT,padx=5,anchor='w',font=("times new roman",20,"bold"),bg="white",bd=3,cursor="hand2" , command=self.product).pack(side=TOP,fill=X)
         btn_sales = Button(LeftMenu,text="Sales",image=self.icon_side,compound=LEFT,padx=5,anchor='w',font=("times new roman",20,"bold"),bg="white",bd=3,cursor="hand2" , command=self.sales).pack(side=TOP,fill=X)
-        btn_exit = Button(LeftMenu,text="Exit",image=self.icon_side,compound=LEFT,padx=5,anchor='w',font=("times new roman",20,"bold"),bg="white",bd=3,cursor="hand2").pack(side=TOP,fill=X)
+        btn_exit = Button(LeftMenu,text="Exit",image=self.icon_side,compound=LEFT,padx=5,anchor='w',font=("times new roman",20,"bold"),bg="white",bd=3,cursor="hand2",command=self.exit_file).pack(side=TOP,fill=X)
 
         # ======content======
         self.lbl_employee = Button(self.root, text="Total Employee\n [ 0 ]", bd=5, relief=RIDGE, bg="#33bbf9",fg="white", font=("goudy old style", 20, "bold"),command = self.employee)
@@ -61,6 +61,7 @@ class IMS:
         lbl_footer = Label(self.root,text="IMS:- Inventory Management System || Developed By Vaibhav Jain \nFor any Technical Issue Contact: xxxxxxxxxx ",font=("times new roman",12),bg="#4d636d",fg="white").pack(side=BOTTOM,fill=X)
 
         self.update_content()
+        self.root.bind('<Control-q>', self.exit_file)
 
     def menu(self):
         self.root.destroy()
@@ -111,7 +112,10 @@ class IMS:
     def logout(self):
         self.root.destroy()
         os.system("python login.py")
-
+    
+    def exit_file(self,event=None):
+        if messagebox.askokcancel('Confirm Exit','Are you sure want to exit IMS')==True:
+            self.root.destroy()
 
 
 
