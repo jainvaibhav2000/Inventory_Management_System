@@ -1,5 +1,22 @@
 # Inventory_Management_System
 
+### Libraries I am using in my project
+
+- **from tkinter import   :-** Python offers multiple options for developing GUI (Graphical User Interface). Out of all the GUI methods, tkinter is the most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Creating a GUI using tkinter is an easy task.
+- **from PIL import ImageTk    :-** (from pillow) I am using this because it support for a wide range of image file formats, including PNG, JPG, JPEG and GIF.
+- **from tkinter import ttk,messagebox :-** 1). **Ttk** comes with 18 widgets, twelve of which already existed in tkinter (Button, Checkbutton, Entry, Frame, Label, LabelFrame, Menubutton, PanedWindow, Radiobutton, Scale, Scrollbar, and Spinbox) and the other six are new (Combobox, Notebook, Progressbar, Separator, Sizegrip and Treeview) Using the Ttk widgets gives the application an improved look and feel.
+2).**MessageBox** Widget is used to display the message boxes in the python applications. This module is used to display a message using provides a number of functions.
+- **import time          :-** It is used to generate random bill no. and use to show date and time in the bill when it is generated.
+- **import os            :-** It is used to store the bill's in to the bill folder, printing the bill and run python files.
+- **import smtplib       :-** It can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon. I am also encrypt the message to protect from attackers by using starttls. 
+- **import email_pass    :-** you need to create email_pass.py file in which you define two variable 1). email_  is which you initialise your email (sender email) 2). pass_  in which you initialise password of that mail.
+- **import tempfile      :-** This module creates temporary files and directories when you printing the bill.
+- **import sqlite3       :-** It is used to store data in to the database.
+
+## Working:
+first page is for login in this there are only two type of people can login 1). Admin:- He has a access to remove the employee, add the employee, update employee information, check bills, add category, add products, etc.. 2). Employee:- He can access only billing part in which he can do add product in to user cart, calculate bill, generate the bill and print the bill as per the user demands.
+
+## Images of this project:
 
 <code><img height="60" src="https://user-images.githubusercontent.com/89255942/132175103-7f754056-d916-4fa4-b8d9-962105e5b472.png"></code>
 <code><img height="60" src="https://user-images.githubusercontent.com/89255942/132175224-dceb0fd5-63fc-4cc1-8c66-4bb955cb2b02.png"></code>
