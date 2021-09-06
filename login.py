@@ -162,7 +162,7 @@ class Login_System:
 
         self.otp = int(time.strftime("%H%S%M"))+int(time.strftime("%d%m%Y"))
         subject = 'IMS-Reset Password OTP'
-        message = f'DearSir/Madam,\n\nYour Reset OTP is {str(self.otp)}.\n\nWith Regards,\nIMS Team'
+        message = f'Dear Sir/Madam,\n\nYour Reset OTP is {str(self.otp)}.\n\nWith Regards,\nIMS Team'
         message = "Subject:{}\n\n{}".format(subject,message)
         s.sendmail(email_,to_,message)
         chk=s.ehlo()
