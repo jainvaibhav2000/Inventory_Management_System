@@ -1,0 +1,21 @@
+
+		  Electric Shop-Inventory
+	 Phone No 12345***** , Delhi-51**1
+===============================================
+ customer Name: Vaibhav Jain
+ Ph no. :9876543210			Time: 12:20:46
+ Bill No. 182967			Date: 06/09/21
+===============================================
+ Product Name			Qty	Price
+===============================================
+        
+ Fan heater			1	Rs.6000.0
+ 13W 2Pin CFL			1	Rs.150.0
+ 1800W Induction			1	Rs.1600.0
+ Xiaomi Redmi Note 10				1	Rs.13999.0
+===============================================
+ Bill Amount				Rs.21749.0
+ Discount				Rs.1087.45
+ Net Amount				Rs.20661.55
+===============================================
+        
