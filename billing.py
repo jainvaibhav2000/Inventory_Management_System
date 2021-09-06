@@ -355,7 +355,7 @@ class billClass:
     def bill_top(self):
         self.invoice = int(time.strftime("%H%M%S")) + int(time.strftime("%d%m%y"))
         bill_top_temp =f'''
-\t\t  XYZ-Inventory
+\t\t  Electric Shop-Inventory
 \t Phone No 98725***** , Delhi-125001
 {str("="*47)}
  customer Name: {self.var_cname.get()}
