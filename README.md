@@ -34,4 +34,7 @@ There are only 30 products are add related to electric in to the database, you c
 <code><img height="60" src="https://user-images.githubusercontent.com/89255942/132175220-2f7c1021-ee37-41b1-8f62-6505508d59bc.png"></code>
 <code><img height="60" src="https://user-images.githubusercontent.com/89255942/132175222-46bcf7c4-aabf-424f-b051-683b582c1389.png"></code>
 
+## For any queries, you can contact me:
+Email: vaibhavj2000@gmail.com
 
+LinkedIn: https://www.linkedin.com/in/vaibhav-jain-a96a59200/
