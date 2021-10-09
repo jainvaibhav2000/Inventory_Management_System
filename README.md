@@ -14,7 +14,7 @@
 - **import sqlite3       :-** It is used to store data in to the database.
 
 ## Working:
-first page is for login in this there are only two type of people can login 1). Admin:- He has a access to remove the employee, add the employee, update employee information, check bills, add category, add products, etc.. 2). Employee:- He can access only billing part in which he can do add product in to user cart, calculate bill, generate the bill and print the bill as per the user demands.
+first page is for login in this there are only two types of people can log in 1). Admin:- He has access to remove the employee, add the employee, update employee information, check bills, add a category, add products, etc.. 2). Employee:- He can access only the billing part in which he can do add products to the user cart, calculate the bill, generate the bill and print the bill as per the user demands.
 
 There are only 30 products are add related to electric in to the database, you can also add products as per your need.
 ## Images of this project:
